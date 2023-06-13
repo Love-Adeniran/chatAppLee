@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+    min-height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    font-weight: 600;
+    margin: 10px 0;
+    font-style: oblique;
+    color: #1a041d;
+}
+input:focus{
+    border: 1px solid #1a041d;
+}
+.message-box{
+    backdrop-filter: blur(10px);
+}
+button{
+    min-width: 25%;
+    min-height: 40px;
+    border: 1px solid #041d0e;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: 1px solid #041d0e;
+    background: #fff;
+    color: #1a041d;
+    cursor: pointer;
+    font-weight: 600;
+    margin: auto;
+}
+button:hover{
+    background: #1a041d;
+    color: #fff;
+}
+button:active{
+    background: #1a041d;
+    color: #fff;
+}
+button:focus{
+    outline: none;
+}
+.chat-border{
+    border: 18px solid #1a041d;
+    border-radius: 40px;
+    padding: 10px;
+    height: 80%;
+    background-image: url("../../assets/images/daniel-korpai-r73OFSry5AI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    backdrop-filter: blur(10px);
+  }
+  .chat-div{
+    backdrop-filter: blur(10px);
+    min-width: 50%;
+    min-height: 40px;
+    border-radius:60px 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    color: #041d0e;
+    font-weight: 600;
+    margin: 10px 0;
+    font-style: oblique;
+    background-color: #bda3c1;
+  }
+  .text-chat{
+    font-weight: 800;
+    color: #2f0235;
+  }
+  .text-chat:focus{
+    border: 1px solid #1a041d;
+  }

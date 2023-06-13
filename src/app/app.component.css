@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background: #1a041d;
+} */
+
+.chat-title {
+    font-family: 'Inspiration', cursive;
+    font-weight: 900;
+    font-size: 90px;
+    color: #1a041d;
+  }
+  .chat{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+  }
+ 

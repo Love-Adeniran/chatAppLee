@@ -1,0 +1,15 @@
+<!-- <div class="col-5"> -->
+    <div class="container  p-5 chat-border shadow">
+        <div class="container ">
+            <div *ngFor="let message of allChats">
+                <div class="chat-div shadow"><p class="text-chat text-center m-4 ">{{message}}</p></div>
+            </div>
+        </div>
+        <div class="border rounded p-1 message-box absolute bottom-0">
+            <input type="text" placeholder="Enter message" [(ngModel)]="message"  class="">
+            <div class="p-1 mx-4">
+                <button (click)="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+<!-- </div> -->
